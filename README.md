@@ -17,25 +17,6 @@ El código fuente está estructurado de manera modular respetando el principio d
 3. **`LectorDatos.java`**: Maneja la interacción por consola, la lectura de datos y la impresión de matrices y vectores de respuesta.
 4. **`Main.java`**: Clase principal que coordina el flujo del programa.
 
-## 🚀 Pasos para Compilar y Ejecutar
-
-### Paso 1: Clonar o descargar los archivos
-Asegúrate de colocar los archivos `Gauss.java`, `GaussJordan.java`, `LectorDatos.java` y `Main.java` en la misma carpeta.
-
-### Paso 2: Compilar el código
-Abre una terminal en el directorio del proyecto y ejecuta:
-
-```bash
-javac Main.java Gauss.java GaussJordan.java LectorDatos.java
-```
-
-### Paso 3: Ejecutar la aplicación
-Ejecuta la clase principal con:
-
-```bash
-java Main
-```
-
 ## 💻 Ejemplo de Prueba y Salida por Consola
 
 ### Sistema de Ecuaciones
@@ -66,6 +47,10 @@ Elemento [3][1]: -2
 Elemento [3][2]: 1
 Elemento [3][3]: 2
 Elemento [3][4]: -3
+
+```
+Se mostrara cada iteracion hasta llegar al resultado.
+```text
 
 --- Matriz Aumentada Inicial [A | b] ---
 [   2.00   1.00  -1.00 |   8.00 ]
