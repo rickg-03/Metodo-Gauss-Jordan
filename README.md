@@ -1,6 +1,6 @@
 # Práctica: Método de Gauss-Jordan (Reutilización de Software)
 
-Este proyecto implementa el método de eliminación de **Gauss-Jordan** en **Java** bajo un diseño modular y aplicando el principio de **reutilización de software**. Se aprovecha el módulo previo de Eliminación Gaussiana (`Gauss.eliminacionGaussiana`) para transformar la matriz en una matriz triangular superior, finalizando con la normalización de pivotes y barrido superior para obtener la matriz identidad y la lectura directa del vector de soluciones.
+Este proyecto implementa el método de eliminación de **Gauss-Jordan** en **Java** bajo un diseño modular y aplicando el principio de **reutilización de software**. Se aprovecha el módulo previo de Eliminación Gaussiana para obtener la matriz identidad y la lectura directa del vector de soluciones.
 
 ## 🛠️ Lenguaje y Requisitos
 
